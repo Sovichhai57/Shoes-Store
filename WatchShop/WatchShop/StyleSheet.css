@@ -1,0 +1,101 @@
+﻿body {
+    width:1000px;
+}
+.mainBody{
+    width:auto;
+    margin:auto;
+}
+#header{
+   
+    padding:10px 20px 10px 20px;
+    background-color:aqua;
+    color: aliceblue;
+    margin:auto;
+}
+#footer {
+    width:1200px;
+    text-align: left;
+    margin:auto;
+    padding: 20px 0px 20px 0px;
+}
+#MostFav {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+#mnubar{
+    padding:10px 20px 10px 20px;
+    height:22px;
+    width:1200px;
+    margin:auto;
+
+}
+#mnubar ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+#mnubar li{
+    float:left;
+    padding: 0px 10px 0px 10px;
+    text-decoration:none;
+    margin: 0px;
+}
+#mnubar a{
+    display:block;
+    font-family:'Lucida Bright','Lucida Sans';
+    font-size:1em;
+    text-decoration:none;
+}
+#mnubar li:hover{
+    background-color:darkorchid;
+}
+#mnubar a:link {
+    color:greenyellow;
+}
+    #mnubar a:visited {
+        color: red;
+    }
+    #mnubar a:hover {
+        color: azure;
+        font-size:1.05em;
+    }
+    #mnubar a:active{
+        color: brown;
+    }
+        #LogCL{
+    padding: 10px 20px 10px 20px;
+    height: 22px;
+    width: 1200px;
+    margin: auto;
+    color:aliceblue;
+}
+    #LogCL.lcl1 {
+        color: aliceblue;
+    }
+    #mcontent.ColM{
+        border:solid;
+        width:620PX;
+        border-color:aliceblue;
+        margin-left: 280PX;
+        text-align:center;
+        margin-top:40PX;
+    }
+#mcontent.ColL {
+    background-color:burlywood;
+    width: 250PX;
+    position:absolute;
+    left: 40PX;
+    text-align: center;
+    top: 420PX;
+}
+#mcontent.ColR {
+    background-color: burlywood;
+    width: 250PX;
+    position: absolute;
+    left: 940PX;
+    text-align: center;
+    top: 420PX;
+}
+

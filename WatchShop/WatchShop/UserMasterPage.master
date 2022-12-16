@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="true" CodeFile="UserMasterPage.master.cs" Inherits="UserMasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="mainContent" Runat="Server">
+<table style="width:1200px">
+ <tr id="mnubar">
+ <td style="width:300px; padding:10px" colspan="2">
+ <ul  >
+                    <li> <a href="allWatches.aspx">All Watches</a></li> 
+                    <li> <a href="girlWatches.aspx">Girl Watches</a></li> 
+                    <li> <a href="boyWatches.aspx">Boy Watches</a></li> 
+                    <li> <a href="productDetail.aspx">Product Detail</a></li> 
+                    <li> <a href="aboutUs.aspx">About Us</a></li> 
+                    <li> <a href="contactUs.aspx">Contact Us</a></li> 
+                 </ul>
+     <br />
+     <h3>SiteMapPath of Your Page</h3>
+ </td>
+     
+ <td style="width:200px; padding:10px"> 
+ <b><i>Login Here</i></b>
+ </td>
+ </tr>
+ <tr>
+ <td style="padding:10px; vertical-align:top">
+ <hr />
+ <br /><br />
+ <b>Where We Place <br />TreeView Controls<br />Next Time</b>
+ </td>
+ <td style="width:900px; padding:10px; vertical-align:top" colspan="2">
+ <asp:ContentPlaceHolder runat="server" ID="UserContent"></asp:ContentPlaceHolder>
+ </td>
+ </tr>
+ </table>
+</asp:Content>
+

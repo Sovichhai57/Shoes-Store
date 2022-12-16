@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs"
+Inherits="AdminMasterPage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="mainContent" Runat="Server">
+    <table style="width:1200px">
+ <tr>
+ <td style="width:300px; padding:10px" colspan="2">
+ <asp:HyperLink runat="server" ID="hy1" NavigateUrl="AddNew.aspx"
+ Text="Add New Watch"></asp:HyperLink> &nbsp;&nbsp;&nbsp;&nbsp;
+ <asp:HyperLink runat="server" ID="HyperLink1" NavigateUrl="editWatchInfo.aspx"
+ Text="Edit Watch Info"></asp:HyperLink> &nbsp;&nbsp;&nbsp;&nbsp;
+ <asp:HyperLink runat="server" ID="HyperLink5" NavigateUrl="editImages.aspx"
+ Text="Edit Images"></asp:HyperLink> &nbsp;&nbsp;&nbsp;&nbsp;
+ <asp:HyperLink runat="server" ID="HyperLink2" NavigateUrl="countryEdit.aspx"
+ Text="Edit Suppliers"></asp:HyperLink> &nbsp;&nbsp;&nbsp;&nbsp;
+ <asp:HyperLink runat="server" ID="HyperLink3" NavigateUrl="editWatchBrand.aspx"
+ Text="Edit Watch Brand"></asp:HyperLink>
+ </td>
+ <td style="width:200px; padding:10px"> 
+ <b><i>Welcome:<asp:LoginName ID="LoginName1" runat="server" />
+     <asp:LoginStatus ID="LoginStatus1" runat="server" />
+ </i></b>
+ </td>
+ </tr>
+ <tr>
+ <td style="padding:10px; vertical-align:top">
+ <hr />
+ <br /><br />
+ <b>Where We Place <br />TreeView Controls<br />Next Time</b>
+ </td>
+ <td style="width:900px; padding:10px; vertical-align:top" colspan="2">
+ <asp:ContentPlaceHolder runat="server" ID="adminContent"></asp:ContentPlaceHolder>
+ </td>
+ </tr>
+ </table>
+</asp:Content>
